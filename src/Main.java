@@ -7,7 +7,7 @@ public class Main {
         List<VatPham> danhSachVatPham = new ArrayList<>();
         danhSachVatPham.add(new VatPhamDonGian("Chiếc búa thần", 25, 2));
         danhSachVatPham.add(new VatPhamDonGian("Bao tay sấm sét", 30, 1));
-        danhSachVatPham.add(new VatPhamNangCao("Hòn đá kích nổ", 40, 2, 10)); // Vật phẩm nâng cao
+        danhSachVatPham.add(new VatPhamNangCao("Hòn đá kích nổ", 40, 2, 10));
         danhSachVatPham.add(new VatPhamDonGian("Cây rìu phép thuật", 30, 1.5));
         danhSachVatPham.add(new VatPhamDonGian("Cây gậy chiến thần", 20, 1));
 
