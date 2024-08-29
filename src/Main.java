@@ -14,9 +14,9 @@ public class Main {
         VatPhamService service = new VatPhamService();
 
         // Header cho đẹp nè
-        System.out.println("+----------------------+-----------------+------------+-----------------+------------+");
-        System.out.println("| Tên vật phẩm         | Chỉ số sức mạnh | Hệ số SM   | Sức công phá     | Chi phí    |");
-        System.out.println("+----------------------+-----------------+------------+-----------------+------------+");
+        System.out.println("+--------------------+-----------------+------------+-----------------+------------+");
+        System.out.println("| Tên vật phẩm       | Chỉ số sức mạnh |  Hệ số SM  |   Sức công phá  |   Chi phí  |");
+        System.out.println("+--------------------+-----------------+------------+-----------------+------------+");
 
         // Yêu cầu 2: Xuất thông tin vật phẩm kèm theo Sức công phá mỗi vật phẩm ra màn hình
         for (VatPham vatPham : danhSachVatPham) {
@@ -24,7 +24,7 @@ public class Main {
         }
 
         // Footer cho đẹp
-        System.out.println("+----------------------+-----------------+------------+-----------------+------------+");
+        System.out.println("+--------------------+-----------------+------------+-----------------+------------+");
 
         // Yêu cầu 3: Cho biết vật phẩm nào cần tốn nhiều xu vàng nhất
         VatPham vatPhamTonNhieuXuNhat = service.timVatPhamTonNhieuXuVangNhat(danhSachVatPham);
